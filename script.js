@@ -152,4 +152,3 @@ form.addEventListener("submit", (e) => {
     formSuccess.textContent = "";
   }
 });
-
