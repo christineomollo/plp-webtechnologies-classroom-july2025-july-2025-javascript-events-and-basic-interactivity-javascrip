@@ -4,7 +4,8 @@ Welcome to the exciting world of interactivity! This assignment is all about **m
 
 ---
 
-## 🎉 Part 1: JavaScript Event Handling and Interactive Elements
+## 🎉 Part 1: dation accuracy and helpfulness of feedback
+* Clear, modular, and well-commented JavaScript codeJavaScript Event Handling and Interactive Elements
 
 Let’s start with the basics of **event handling**. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
 
@@ -52,7 +53,6 @@ Each section of your JavaScript should be commented to explain its purpose.
 
 * Use of event listeners and appropriate event types
 * Creativity and functionality of interactive elements
-* Form validation accuracy and helpfulness of feedback
-* Clear, modular, and well-commented JavaScript code
+* Form vali
 * A clean and functional user experience
 

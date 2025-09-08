@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  transition: background #240c0c, color #b36868;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  margin: 25px 0;
+  padding: 15px;
+  border: 1px solid #760f4d;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f095a6;
+  color: rgb(21, 2, 2);
+  transition: background #670d1e;
+}
+
+button:hover {
+  background: #3f0224;
+}
+
+/* Hover Box */
+#hoverBox {
+  width: 120px;
+  height: 120px;
+  background: rgb(96, 47, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border-radius: 6px;
+  transition: background #2e2022;
+}
+
+/* Hidden text */
+.hidden {
+  display: none;
+}
+
+/* FAQ styles */
+.faq-answer {
+  display: none;
+  margin: 5px 0 15px;
+  padding: 8px;
+  background: #b36868;
+  border-radius: 6px;
+}
+
+/* Step Tracker Progress Bar */
+#progressContainer {
+  width: 100%;
+  background: #e5aaaae4;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 20px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: #6d0909e4;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Errors & success */
+.error {
+  color: rgb(219, 134, 145);
+  font-size: 0.9em;
+}
+
+.success {
+  color: #69e6dd;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #222;
+  color: rgb(139, 89, 95);
+}

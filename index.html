@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Interactivity Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>wellness champ</h1>
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- PART 1: EVENT HANDLING BASICS -->
+    <section>
+      <h2>Part 1: Event Handling</h2>
+
+      <!-- Click Event -->
+      <button id="clickBtn">Click Me!</button>
+      <p id="clickMessage"></p>
+
+      <!-- Mouseover Event -->
+      <div id="hoverBox">Hover over me!</div>
+
+      <!-- Keyboard Input -->
+      <input type="text" id="keyInput" placeholder="Type something...">
+      <p id="keyOutput"></p>
+
+      <!-- Show/Hide Content -->
+      <button id="toggleBtn">Show/Hide Info</button>
+      <p id="toggleText" class="hidden">🎉 Surprise! You revealed me.</p>
+    </section>
+
+    <!-- PART 2: INTERACTIVE ELEMENTS -->
+    <section>
+      <h2>Part 2: Interactive Elements</h2>
+
+      <!-- Counter Game -->
+      <div class="counter">
+        <h3>🎉 Counter Game</h3>
+        <button id="incrementBtn">+ Increase</button>
+        <button id="resetBtn">🔄 Reset</button>
+        <p>Count: <span id="counterValue">0</span></p>
+      </div>
+
+      <!-- Collapsible FAQ -->
+      <div class="faq">
+        <h3>📘 FAQ Section</h3>
+        <button class="faq-question">❓ What is JavaScript?</button>
+        <div class="faq-answer">JavaScript makes websites interactive!</div>
+
+        <button class="faq-question">❓ What is the DOM?</button>
+        <div class="faq-answer">The DOM represents the web page as objects.</div>
+      </div>
+
+      <!-- Health & Wellness Tracker -->
+      <div class="tracker">
+        <h3>🏃 Health & Wellness Tracker</h3>
+        <p>Log your steps and track your daily goal (10,000 steps).</p>
+        <button id="logStepsBtn">➕ Log 500 steps</button>
+        <p>Total Steps: <span id="stepCount">0</span></p>
+        <div id="progressContainer">
+          <div id="progressBar"></div>
+        </div>
+        <p id="goalMessage"></p>
+      </div>
+    </section>
+
+    <!-- PART 3: FORM VALIDATION -->
+    <section>
+      <h2>Part 3: Sign Up Form</h2>
+      <form id="signupForm" novalidate>
+        <label>
+          Name:
+          <input type="text" id="name">
+          <span class="error" id="nameError"></span>
+        </label>
+
+        <label>
+          Email:
+          <input type="email" id="email">
+          <span class="error" id="emailError"></span>
+        </label>
+
+        <label>
+          Password:
+          <input type="password" id="password">
+          <span class="error" id="passwordError"></span>
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formSuccess" class="success"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
