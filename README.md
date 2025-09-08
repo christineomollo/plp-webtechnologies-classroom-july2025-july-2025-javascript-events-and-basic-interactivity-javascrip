@@ -55,4 +55,3 @@ Each section of your JavaScript should be commented to explain its purpose.
 * Creativity and functionality of interactive elements
 * Form vali
 * A clean and functional user experience
-

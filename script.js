@@ -75,7 +75,7 @@ faqQuestions.forEach((btn) => {
   });
 });
 
-// REAL-LIFE FEATURE: STEP TRACKER
+// STEP TRACKER
 const logStepsBtn = document.getElementById("logStepsBtn");
 const stepCountDisplay = document.getElementById("stepCount");
 const progressBar = document.getElementById("progressBar");
